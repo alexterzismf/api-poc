@@ -85,7 +85,7 @@ public class DefaultApiExample {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://hostname/ajax*
+All URIs are relative to *http://hostname2/ajax*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

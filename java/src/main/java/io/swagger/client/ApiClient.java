@@ -101,7 +101,7 @@ public class ApiClient {
      */
     public static final String LENIENT_DATETIME_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.SSSZ";
 
-    private String basePath = "http://hostname/ajax";
+    private String basePath = "http://hostname2/ajax";
     private boolean lenientOnJson = false;
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
@@ -166,7 +166,7 @@ public class ApiClient {
     /**
      * Set base path
      *
-     * @param basePath Base path of the URL (e.g http://hostname/ajax
+     * @param basePath Base path of the URL (e.g http://hostname2/ajax
      * @return An instance of OkHttpClient
      */
     public ApiClient setBasePath(String basePath) {
